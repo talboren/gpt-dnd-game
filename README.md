@@ -8,7 +8,7 @@ To install the game, you will need to have Python 3.7 or higher installed on you
 
 After you have installed Python, clone this repository to your local machine:
 
-`git clone https://github.com/yourusername/dnd-game.git`
+`git clone https://github.com/talboren/gpt-dnd-game.git`
 
 Once you have cloned the repository, navigate to the `dnd-game` directory and create a virtual environment:
 
