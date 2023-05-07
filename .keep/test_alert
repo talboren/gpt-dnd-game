@@ -1,1 +1,1 @@
-Create a Datadog importable alert (JSON) that triggers when user id tal@keephq.dev is logged
+Create alert every time that this service throws more than 5 errors in a minute for more than 10 minutes. The alert should be in my Grafana and to send a slack notification to the alerts channel.
