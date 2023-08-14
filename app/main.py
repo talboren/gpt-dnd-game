@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 
-from app.utils.chatgpt import ChatGPT
-from app.models.player import Player
-from app.models.character import Character
+from utils.chatgpt import ChatGPT
+from models.player import Player
+from models.character import Character
 
 app = FastAPI()
 
@@ -24,3 +24,4 @@ async def game_input(player_id: str, input_text: str):
     response = chatbot.generate_response(input_text, character.state)
     character.update_state(response)
     return {"message": response}
+
